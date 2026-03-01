@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #dbf0db;
 }
 .img_container {
-    background-image: url("pexels-birgit-held-392791-1046125.jpg");
+    background-image: url("image.jpg");
     background-size: cover;
     background-position: center;
     object-fit: contain;
