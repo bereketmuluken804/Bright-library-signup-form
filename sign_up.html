@@ -11,44 +11,42 @@
 <body>
     <div class="container">
         <div class="img_container">
+            <caption>Photo by BrigitHeld on pexel.com</caption>
         </div>
 
         <div class="content_container">
-            <div class="text_cont"><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nostrum animi
-                repellendus quam et, consequatur reprehenderit in sint.
+            <div class="text_cont"><h2>Bright Library, <br><br>where the community meets the world through books.
                 </h2>
                 <br>
-                <h2>Lorem, ipsum dolor.</h2>
+                <h2>Join us right now!</h2>
 
             </div> 
-            <form action="" method="post"></form>
+            <form action="#" method="post">
             <div class="signup-card">
-               
                     <div class="input_cont">
-                        <lable for="">*First Name</lable>
+                        <label for="">*First Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input_cont">
+                        <label>Last Name</label>
                         <input type="text">
                     </div>
                     <div class="input_cont">
-                        <lable>Last Name</lable>
-                        <input type="text">
+                        <label>*Email</label>
+                        <input type="email" placeholder="example@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$" required>
                     </div>
                     <div class="input_cont">
-                        <lable>Email</lable>
-                        <input type="text">
+                        <label>*Phone Number</label>
+                        <input type="text" pattern="\d{3,}" required>
                     </div>
                     <div class="input_cont">
-                        <lable>Phone Number</lable>
-                        <input type="text">
+                        <label>*Password</label>
+                        <input type="password" required>
                     </div>
                     <div class="input_cont">
-                        <lable>Password</lable>
-                        <input type="text">
+                        <label>*Confirm Password</label>
+                        <input type="password" required>
                     </div>
-                    <div class="input_cont">
-                        <lable>Confirm Password</lable>
-                        <input type="text">
-                    </div>
-                
             </div>
             <div class="buttons">
                 <button type="submit">Create Account</button>
